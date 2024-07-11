@@ -1,0 +1,61 @@
+
+
+.play-page {
+    padding: 20px;
+  }
+  
+  .sidebar {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .main {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .options button {
+    display: block;
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #ffcccb; /* Pink color */
+    border: 20px;
+    cursor: pointer;
+  }
+  
+  .options button:hover {
+    background-color: #ffb6c1; /* Slightly darker pink */
+  }
+  
+  .options .selected {
+    background-color: #d4edda;
+  }
+  
+  .stars {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .locked {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .unlocked {
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .badges {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    top: 400px;
+    left: auto;
+    width: 100%;
+  }

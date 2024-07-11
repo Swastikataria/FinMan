@@ -1,0 +1,27 @@
+.navbar {
+    position: sticky;
+    padding: 1rem 1.5rem;
+    background-color: var(--theme);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem; /* Add gap between nav items */
+}
+
+.logo {
+    height: 50px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+    margin-left: auto; /* Push logo to the right */
+}
+
+.nav-item {
+    font-size: 1rem; /* Ensure consistent font size */
+    padding: 0.5rem; /* Ensure consistent padding */
+}

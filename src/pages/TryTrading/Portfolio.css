@@ -1,0 +1,17 @@
+.portfolio-container {
+    padding: 10px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.portfolio-table {
+    margin: 20px auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.portfolio-table th, .portfolio-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}

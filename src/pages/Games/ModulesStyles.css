@@ -1,0 +1,86 @@
+.games-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rules-button {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    background-color: rgb(247, 247, 112);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.rules-display {
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 60%;
+}
+
+.page-heading {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.main-content {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.study-material h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.action-buttons {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+}
+
+.play-now-button {
+    background-color: green;
+    color: white;
+    border: none;
+    margin-right: auto;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}

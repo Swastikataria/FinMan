@@ -1,0 +1,92 @@
+.form-container {
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+  }
+  
+  .expense-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .expense-table th, .expense-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .expense-table th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .expense-table td {
+    text-align: center;
+  }
+  
+  .category-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .category-icon {
+    margin-right: 10px;
+  }
+  
+  .expense-input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .date-container {
+    margin-bottom: 20px;
+  }
+  
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .message {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+  }
+  
+  .video-tutorials h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .video-tutorials ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .video-tutorials li {
+    margin-bottom: 10px;
+  }
+  
+  .video-tutorials a {
+    color: #1a0dab;
+    text-decoration: none;
+  }
+  
+  .video-tutorials a:hover {
+    text-decoration: underline;
+  }
