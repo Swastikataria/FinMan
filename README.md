@@ -3,7 +3,7 @@
 FinMan is a comprehensive finance tracker built with React and Firebase. It helps users manage their expenses, provides personalized financial recommendations, and includes gamified elements to enhance user engagement.
 
 # Features
-1. Expense Tracking: Easily track 2. and categorize your expenses.
+1. Expense Tracking: Easily track and categorize your expenses.
 2. Goal Setting: Set and monitor financial goals.
 3. Personalized Recommendations: Get financial advice tailored to your spending habits.
 4. Games Section: Includes learning modules and interactive quizzes to improve financial literacy.

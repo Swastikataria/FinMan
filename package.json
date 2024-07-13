@@ -1,9 +1,10 @@
 {
-  "name": "finance_tracker",
+  "name": "finman",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@babel/regjsgen": "^0.8.0",
+    "@craco/craco": "^7.1.0",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
@@ -15,6 +16,8 @@
     "chart.js": "^4.4.3",
     "dialogflow": "^1.2.0",
     "firebase": "^10.12.3",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
     "plotly.js": "^2.33.0",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
@@ -31,6 +34,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "browser": {
+    "fs": false,
+    "path": "path-browserify",
+    "os": "os-browserify/browser"
   },
   "eslintConfig": {
     "extends": [
